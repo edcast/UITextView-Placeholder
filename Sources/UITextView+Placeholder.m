@@ -113,11 +113,11 @@
 
 #pragma mark `placeholder`
 
-- (NSString *)placeholder {
+- (NSString *)placeholderString {
     return self.placeholderTextView.text;
 }
 
-- (void)setPlaceholder:(NSString *)placeholder {
+- (void)setPlaceholderString:(NSString *)placeholder {
     self.placeholderTextView.text = placeholder;
     [self updatePlaceholderTextView];
 }
